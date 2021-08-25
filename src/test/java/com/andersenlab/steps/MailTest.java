@@ -54,7 +54,6 @@ public class MailTest {
         sentEmailsPane.click();
 
         new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@title='est1q2w3eas@mail.ru']/..")));
-
         WebElement sentEmails = driver.findElement(By.xpath("//*[@title='est1q2w3eas@mail.ru']/.."));
         sentEmails.click();
 
