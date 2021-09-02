@@ -66,6 +66,7 @@ public class MailTest {
 
     @After
     public void cleanUp() {
+
         driver.quit();
     }
 
